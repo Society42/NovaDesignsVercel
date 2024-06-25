@@ -16,7 +16,7 @@ const io = new Server(server);
 const PORT = process.env.PORT || 3000;
 const CLIENT_ID = '1093880651956113508';
 const CLIENT_SECRET = 'pfdr3sLEdeTZZF28b3IhDBtn9r2awcZq';
-const CALLBACK_URL = 'http://localhost:3000/auth/discord/callback';
+const CALLBACK_URL = 'https://novadesigns.co.uk/auth/discord/callback';
 const ALLOWED_USERS = ['1040357402647724082', 'USER_ID_2'];
 
 const storage = multer.diskStorage({
