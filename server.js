@@ -70,8 +70,12 @@ app.get('/auth/discord/callback', passport.authenticate('discord', { failureRedi
 });
 
 app.get('/logout', (req, res) => {
-  req.logout();
-  res.redirect('/');
+  req.logout((err) => {
+    if (err) {
+      return next(err);
+    }
+    res.redirect('/');
+  });
 });
 
 app.get('/user', (req, res) => {
