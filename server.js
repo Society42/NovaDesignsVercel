@@ -52,12 +52,16 @@ app.use(passport.session());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/', (req, res) => {
+function isAuthenticated(req, res, next) {
   if (req.isAuthenticated() && ALLOWED_USERS.includes(req.user.id)) {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+    return next();
   } else {
     res.sendFile(path.join(__dirname, 'public', 'login.html'));
   }
+}
+
+app.get('/', isAuthenticated, (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'developer.html'));
 });
 
 app.get('/auth/discord', passport.authenticate('discord'));
@@ -74,11 +78,11 @@ app.get('/user', (req, res) => {
   res.json(req.user || {});
 });
 
-app.post('/upload', upload.array('files'), (req, res) => {
+app.post('/upload', isAuthenticated, upload.array('files'), (req, res) => {
   res.sendStatus(200);
 });
 
-app.post('/upload-zip', upload.single('zipFile'), (req, res) => {
+app.post('/upload-zip', isAuthenticated, upload.single('zipFile'), (req, res) => {
   const zipFile = req.file;
   if (!zipFile) {
     return res.sendStatus(400);
