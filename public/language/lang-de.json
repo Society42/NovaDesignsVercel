@@ -1,0 +1,119 @@
+{
+    "homepage": {
+      "heroTitle": "Willkommen bei Nova Designs",
+      "heroSubtitle": "Wir entwerfen und entwickeln innovative Lösungen.",
+      "learnMoreBtn": "Mehr erfahren",
+      "trustpilotBtn": "Bewertung auf Trustpilot hinterlassen",
+      "reviewsTitle": "Kundenbewertungen",
+      "reviews": [
+        {
+          "text": "Beste Sache überhaupt, Mann. Alles, was du tun musst, ist, etwas zu suchen, und tada, es ist da. Sehr gut für RP.",
+          "author": "Hogzz, Nova Designs"
+        },
+        {
+          "text": "Nova Designs ist erstaunlich. Sie haben mir geholfen, meine Website zu erstellen und alles für mich zu betreiben. Alles, was ich tun musste, war, ihnen eine Beschreibung dessen zu geben, was ich wollte, dass die Website sein sollte, sowie einige Designideen und den Namen, und boom, innerhalb eines Tages wurden mir Bilder davon gezeigt.",
+          "author": "Destiny Scripts, Nova Designs"
+        }
+      ],
+      "aboutTitle": "Über uns",
+      "aboutText": "Nova Designs ist ein führendes Design- und Entwicklungsstudio, das sich darauf konzentriert, qualitativ hochwertige Lösungen für unsere Kunden zu liefern. Unser Expertenteam ist spezialisiert auf Webdesign, Discord-Bots und Grafikdesigns.",
+      "contactTitle": "Kontaktieren Sie uns auf Discord",
+      "contactText": "Wenn Sie Fragen haben oder Unterstützung benötigen, können Sie sich gerne über Discord an uns wenden. Klicken Sie auf die Schaltfläche unten, um unserem Server beizutreten.",
+      "discordBtn": "Treten Sie unserem Discord bei",
+      "popupTitle": "Nutzungsbedingungen und Datenschutzrichtlinie",
+      "popupText": "Bitte lesen Sie unsere",
+      "termsLink": "Nutzungsbedingungen",
+      "andText": "und",
+      "privacyLink": "Datenschutzrichtlinie",
+      "agreeBtn": "Ich stimme zu"
+    },
+  
+    "services": {
+      "heading": "Onze Diensten",
+      "items": [
+        {
+          "title": "Webdesign",
+          "description": "Wij creëren prachtige en responsieve websites op maat."
+        },
+        {
+          "title": "Discord Bots",
+          "description": "Ons team ontwikkelt gebruiksvriendelijke Discord bots om serverbeheer te stroomlijnen en gemeenschapsbetrokkenheid te verbeteren."
+        },
+        {
+          "title": "ER:LC Liveries",
+          "description": "Wij bieden op maat gemaakte liveries voor noodrespons: Liberty County voertuigen, met innovatief ontwerp volgens moderne standaarden."
+        },
+        {
+          "title": "Grafisch Ontwerp",
+          "description": "Onze creatieve ontwerpers leveren visueel aantrekkelijke graphics voor uw merk."
+        }
+      ]
+    },
+  
+    "credits": {
+      "teamHeading": "Unser Team",
+      "teamMembers": [
+        {
+          "name": "Society",
+          "role": "Chief Executive Officer",
+          "description": "Verantwortlich für die strategische Ausrichtung und Geschäftstätigkeiten des Unternehmens."
+        },
+        {
+          "name": "ryderisshort",
+          "role": "Vice Executive Officer",
+          "description": "Unterstützt den CEO bei der Verwaltung der täglichen Geschäftsaktivitäten und Projektmanagement."
+        },
+        {
+          "name": "duckytop",
+          "role": "Head of Public Relations",
+          "description": "Verwaltet das öffentliche Image des Unternehmens und die Kommunikationsstrategie."
+        },
+        {
+          "name": "ryderisshort",
+          "role": "Developer Director",
+          "description": "Überwacht das Entwicklungsteam und stellt die Qualität von Softwareprojekten sicher."
+        },
+        {
+          "name": "duckdodgers25.5",
+          "role": "Content Development Director",
+          "description": "Verwaltet die Inhaltsentwicklung und stellt die Konsistenz und Qualität aller veröffentlichten Inhalte sicher."
+        },
+        {
+          "name": "stealth102",
+          "role": "Translation Specialist (French)",
+          "description": "Übersetzt Unternehmensinhalte ins Französische und stellt Genauigkeit und kulturelle Relevanz sicher."
+        },
+        {
+          "name": ".xuragentofthenine",
+          "role": "Translation Specialist (Dutch)",
+          "description": "Übersetzt Unternehmensinhalte ins Niederländische und stellt Genauigkeit und kulturelle Relevanz sicher."
+        },
+        {
+          "name": "Anders_J",
+          "role": "General Content Developer",
+          "description": "Erstellt und pflegt verschiedene Inhalte für das Unternehmen."
+        },
+        {
+          "name": "duckdodgers25.5",
+          "role": "General Content Developer, Website Developer",
+          "description": "Entwickelt und pflegt die Unternehmenswebsite sowie andere allgemeine Inhalte."
+        },
+        {
+          "name": "ryderisshort",
+          "role": "General Content Developer, Roblox Studio Developer",
+          "description": "Entwickelt Inhalte für Roblox Studio und trägt zur allgemeinen Inhaltsentwicklung bei."
+        },
+        {
+          "name": "pack29man",
+          "role": "General Content Developer",
+          "description": "Trägt zu verschiedenen Projekten der Inhaltsentwicklung bei."
+        },
+        {
+          "name": "duckdodgers25.5",
+          "role": "CEO of Emergency Navigator",
+          "description": "Bot wertvolle Einblicke und Unterstützung während kritischer Phasen der Projektentwicklung."
+        }
+      ]
+    }
+  }
+  
