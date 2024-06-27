@@ -170,7 +170,7 @@
         languageSelector.value = defaultLanguage;
 
         function loadLanguage(language) {
-          fetch(`./language/lang-${language}.json`)
+          fetch(`language/lang-${language}.json`)
             .then((response) => response.json())
             .then((data) => {
               document.querySelector(".hero h1").textContent = data.heroTitle;
