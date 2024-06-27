@@ -1,0 +1,29 @@
+{
+    "heroTitle": "Willkommen bei Nova Designs",
+    "heroSubtitle": "Wir entwerfen und entwickeln innovative Lösungen.",
+    "learnMoreBtn": "Mehr erfahren",
+    "trustpilotBtn": "Bewertung auf Trustpilot hinterlassen",
+    "reviewsTitle": "Kundenbewertungen",
+    "reviews": [
+      {
+        "text": "Beste Sache überhaupt, Mann. Alles, was du tun musst, ist, etwas zu suchen, und tada, es ist da. Sehr gut für RP.",
+        "author": "Hogzz, Nova Designs"
+      },
+      {
+        "text": "Nova Designs ist erstaunlich. Sie haben mir geholfen, meine Website zu erstellen und alles für mich zu betreiben. Alles, was ich tun musste, war, ihnen eine Beschreibung dessen zu geben, was ich wollte, dass die Website sein sollte, sowie einige Designideen und den Namen, und boom, innerhalb eines Tages wurden mir Bilder davon gezeigt.",
+        "author": "Destiny Scripts, Nova Designs"
+      }
+    ],
+    "aboutTitle": "Über uns",
+    "aboutText": "Nova Designs ist ein führendes Design- und Entwicklungsstudio, das sich darauf konzentriert, qualitativ hochwertige Lösungen für unsere Kunden zu liefern. Unser Expertenteam ist spezialisiert auf Webdesign, Discord-Bots und Grafikdesigns.",
+    "contactTitle": "Kontaktieren Sie uns auf Discord",
+    "contactText": "Wenn Sie Fragen haben oder Unterstützung benötigen, können Sie sich gerne über Discord an uns wenden. Klicken Sie auf die Schaltfläche unten, um unserem Server beizutreten.",
+    "discordBtn": "Treten Sie unserem Discord bei",
+    "popupTitle": "Nutzungsbedingungen und Datenschutzrichtlinie",
+    "popupText": "Bitte lesen Sie unsere",
+    "termsLink": "Nutzungsbedingungen",
+    "andText": "und",
+    "privacyLink": "Datenschutzrichtlinie",
+    "agreeBtn": "Ich stimme zu"
+  }
+  
