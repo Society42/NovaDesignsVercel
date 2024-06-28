@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova Designs</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">Nova Designs</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="forums.html">Forums</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="credits.html">Credits</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+      <select id="language-selector" class="language-selector">
+        <option value="en">English</option>
+        <option value="de">German</option>
+        <option value="es">Spanish</option>
+        <option value="nl">Dutch</option>
+        <option value="fr">French</option>
+        <option value="ru">Russian</option>
+      </select>
+    </nav>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1></h1>
+        <p></p>
+        <a href="#about" class="btn learn-more-btn"></a>
+        <a
+          href="https://uk.trustpilot.com/review/novadesigns.co.uk"
+          class="btn trustpilot-btn"
+          target="_blank"
+        ></a>
+      </div>
+    </section>
+
+    <section id="reviews" class="reviews">
+      <div class="container">
+        <h2></h2>
+        <div class="review-grid">
+          <div class="review-content">
+            <p></p>
+            <cite></cite>
+          </div>
+          <div class="review-content">
+            <p></p>
+            <cite></cite>
+          </div>
+        </div>
+        <a
+          href="https://uk.trustpilot.com/review/novadesigns.co.uk"
+          class="btn trustpilot-btn"
+          target="_blank"
+        ></a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2></h2>
+        <p></p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2></h2>
+        <p></p>
+        <a
+          href="https://discord.gg/yPrrSBC2bW"
+          class="btn discord-btn"
+          target="_blank"
+        ></a>
+      </div>
+    </section>
+
+    <div id="popup-overlay" class="popup-overlay">
+      <div id="popup-box" class="popup-box">
+        <h2></h2>
+        <p id="popup-text"></p>
+        <p
+          id="warning-msg"
+          style="display: none; color: red; font-size: 14px; margin-top: 10px"
+        >
+          You won't be asked again for 30 days after agreeing.
+        </p>
+        <button id="agree-btn"></button>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-links">
+          <a href="terms.html" class="footer-link"></a>
+          <a href="privacy.html" class="footer-link"></a>
+        </div>
+        <p>&copy; 2024 Nova Designs. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const languageSelector = document.getElementById("language-selector");
+
+        const defaultLanguage =
+          localStorage.getItem("selectedLanguage") || "en";
+        languageSelector.value = defaultLanguage;
+
+        languageSelector.addEventListener("change", function () {
+          const selectedLanguage = languageSelector.value;
+          localStorage.setItem("selectedLanguage", selectedLanguage);
+          loadLanguage(selectedLanguage);
+        });
+
+        function loadLanguage(language) {
+          fetch(`./language/lang-${language}.json`)
+            .then((response) => response.json())
+            .then((data) => {
+              document.querySelector(".hero h1").textContent =
+                data.homepage.heroTitle;
+              document.querySelector(".hero p").textContent =
+                data.homepage.heroSubtitle;
+              document.querySelector(".learn-more-btn").textContent =
+                data.homepage.learnMoreBtn;
+              document.querySelectorAll(".trustpilot-btn").forEach((btn) => {
+                btn.textContent = data.homepage.trustpilotBtn;
+              });
+              document.querySelector("#reviews h2").textContent =
+                data.homepage.reviewsTitle;
+              document
+                .querySelectorAll(".review-content p")
+                .forEach((p, index) => {
+                  p.textContent = data.homepage.reviews[index].text;
+                });
+              document
+                .querySelectorAll(".review-content cite")
+                .forEach((cite, index) => {
+                  cite.textContent = data.homepage.reviews[index].author;
+                });
+              document.querySelector("#about h2").textContent =
+                data.homepage.aboutTitle;
+              document.querySelector("#about p").textContent =
+                data.homepage.aboutText;
+              document.querySelector("#contact h2").textContent =
+                data.homepage.contactTitle;
+              document.querySelector("#contact p").textContent =
+                data.homepage.contactText;
+              document.querySelector(".discord-btn").textContent =
+                data.homepage.discordBtn;
+              document.querySelector("#popup-box h2").textContent =
+                data.homepage.popupTitle;
+              document.querySelector(
+                "#popup-text"
+              ).innerHTML = `${data.homepage.popupText} <a href="terms.html" target="_blank">${data.homepage.termsLink}</a> ${data.homepage.andText} <a href="privacy.html" target="_blank">${data.homepage.privacyLink}</a>.`;
+              document.querySelector("#agree-btn").textContent =
+                data.homepage.agreeBtn;
+              document.querySelector(".footer-links .footer-link").textContent =
+                data.homepage.termsLink;
+              document.querySelector(
+                ".footer-links a[href='privacy.html']"
+              ).textContent = data.homepage.privacyLink;
+            })
+            .catch((error) => {
+              console.error("Error loading language file:", error);
+            });
+        }
+
+        loadLanguage(defaultLanguage);
+      });
+    </script>
+  </body>
+</html>
