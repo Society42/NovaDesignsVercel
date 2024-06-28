@@ -1,0 +1,154 @@
+{
+  "homepage": {
+    "heroTitle": "Welcome to Nova Designs",
+    "heroSubtitle": "We design and develop innovative solutions.",
+    "learnMoreBtn": "Learn More",
+    "trustpilotBtn": "Leave a Review on Trustpilot",
+    "reviewsTitle": "Customer Reviews",
+    "reviews": [
+      {
+        "text": "Best thing ever lad like all you do is search something and tada it's there very good for RP.",
+        "author": "Hogzz, Nova Designs"
+      },
+      {
+        "text": "Nova designs is amazing, they helped me create my website and run it all for me. All I needed to do was give them a description of what I wanted the website to be about, and some design ideas as well as the name, and boom, I was shown images of it within a day.",
+        "author": "Destiny scripts, Nova Designs"
+      }
+    ],
+    "aboutTitle": "About Us",
+    "aboutText": "Nova Designs is a premier design and development studio focused on delivering high-quality solutions to our clients. Our team of experts specializes in web design, Discord bots, and graphic designs.",
+    "contactTitle": "Contact Us on Discord",
+    "contactText": "If you have any questions or need support, feel free to reach out to us on Discord. Click the button below to join our server.",
+    "discordBtn": "Join our Discord",
+    "popupTitle": "Terms of Service and Privacy Policy",
+    "popupText": "Please read our",
+    "termsLink": "Terms of Service",
+    "andText": "and",
+    "privacyLink": "Privacy Policy",
+    "agreeBtn": "I Agree"
+  },
+  "forumPosts": [
+    {
+      "title": "Our Universal Expansion Plan",
+      "content": "We are excited to announce our universal expansion plan! We are already implementing language support for English, German, French, Dutch, Russian, and Spanish. This initiative aims to enhance accessibility and inclusivity for our global community. Additionally, we're proud to introduce our redesigned website, offering a more intuitive and engaging user experience.",
+      "username": "Society",
+      "role": "Chief Executive Officer",
+      "date": "June 28, 2024 at 10:00am",
+      "isNew": true
+    },
+    {
+      "title": "Sold Emergency Navigator",
+      "content": "We're excited to announce that Emergency Navigator has been successfully sold to a new owner. As a development studio, we'll continue to support the project, collaborating closely with the new owner to ensure its success. Stay tuned for more updates!",
+      "username": "Society",
+      "role": "Chief Executive Officer",
+      "date": "June 23, 2024 at 14:12pm",
+      "isNew": true
+    },
+    {
+      "title": "Welcome to the Forums",
+      "content": "Welcome to our community forum! This is the hub where we share exciting updates, announce new releases, and discuss important developments. As the exclusive poster, I'll keep you informed on all the latest news, events, and opportunities to engage.",
+      "username": "Society",
+      "role": "Chief Executive Officer",
+      "date": "June 23, 2024 at 14:12pm",
+      "isNew": false
+    }
+
+  ],
+
+  "services": [
+    { "title": "Web Design", "description": "We create stunning and responsive websites tailored to your needs." },
+    { "title": "Discord Bots", "description": "Our team develops user-friendly Discord bots to streamline server management and enhance community engagement." },
+    { "title": "ER:LC Liveries", "description": "We provide custom liveries for emergency response : liberty county vehicles, combining innovative design with sleek and modern standards." },
+    { "title": "Graphic Design", "description": "Our creative designers deliver visually appealing graphics for your brand." }
+  ],
+  "products": [
+    {
+      "categoryName": "Websites",
+      "products": [
+        { "title": "Emergency Navigator", "image": "images/Emergency_Navigator.png", "description": "Emergency Navigator is a website designed by Nova Designs..." },
+        { "title": "Nova Designs", "image": "images/nova_designs.png", "description": "Welcome to the Nova Designs website, where we provide comprehensive information about our services..." }
+      ]
+    },
+    {
+      "categoryName": "Discord Bots",
+      "products": [
+        { "title": "Nova Designs Bot", "image": "images/nova_designs.png", "description": "The Nova Designs discord bot is created to help manage the official Nova Designs discord server." },
+        { "title": "Agua", "image": "images/agua.png", "description": "The Agua bot is created to moderate, manage and help servers out with fun commands..." }
+      ]
+    },
+    {
+      "categoryName": "Graphic Designs",
+      "products": [
+        { "title": "Coming Soon", "description": "Our graphic designs currently are not available yet, please check back later." }
+      ]
+    }
+  ],
+
+  
+
+  "credits": {
+    "teamHeading": "Our Team",
+    "teamMembers": [
+      {
+        "name": "Society",
+        "role": "Chief Executive Officer",
+        "description": "Responsible for overseeing the company's strategic direction and business operations."
+      },
+      {
+        "name": "ryderisshort",
+        "role": "Vice Executive Officer",
+        "description": "Supports the CEO in managing day-to-day business activities and project management."
+      },
+      {
+        "name": "duckytop",
+        "role": "Head of Public Relations",
+        "description": "Manages the company's public image and communications strategy."
+      },
+      {
+        "name": "ryderisshort",
+        "role": "Developer Director",
+        "description": "Oversees the development team and ensures the quality of software projects."
+      },
+      {
+        "name": "duckdodgers25.5",
+        "role": "Content Development Director",
+        "description": "Manages content creation and ensures the consistency and quality of all published content."
+      },
+      {
+        "name": "stealth102",
+        "role": "Translation Specialist (French)",
+        "description": "Translates company content into French and ensures accuracy and cultural relevance."
+      },
+      {
+        "name": ".xuragentofthenine",
+        "role": "Translation Specialist (Dutch)",
+        "description": "Translates company content into Dutch and ensures accuracy and cultural relevance."
+      },
+      {
+        "name": "Anders_J",
+        "role": "General Content Developer",
+        "description": "Creates and maintains various content for the company."
+      },
+      {
+        "name": "duckdodgers25.5",
+        "role": "General Content Developer, Website Developer",
+        "description": "Develops and maintains the company website along with other general content."
+      },
+      {
+        "name": "ryderisshort",
+        "role": "General Content Developer, Roblox Studio Developer",
+        "description": "Develops content for Roblox Studio and contributes to general content creation."
+      },
+      {
+        "name": "pack29man",
+        "role": "General Content Developer",
+        "description": "Contributes to various content development projects."
+      },
+      {
+        "name": "duckdodgers25.5",
+        "role": "CEO of Emergency Navigator",
+        "description": "Provided valuable insights and support during critical stages of project development."
+      }
+    ]
+  }
+}
