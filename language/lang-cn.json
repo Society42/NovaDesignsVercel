@@ -1,0 +1,152 @@
+{
+    "homepage": {
+      "heroTitle": "欢迎来到Nova Designs",
+      "heroSubtitle": "我们设计和开发创新解决方案。",
+      "learnMoreBtn": "了解更多",
+      "trustpilotBtn": "在Trustpilot上留下评论",
+      "reviewsTitle": "客户评论",
+      "reviews": [
+        {
+          "text": "最好的事情，像你搜索什么东西，然后它就在那里，非常适合RP。",
+          "author": "Hogzz, Nova Designs"
+        },
+        {
+          "text": "Nova designs非常棒，他们帮助我创建和管理我的网站。我只需要提供网站的描述、一些设计理念和名称，第二天我就看到了设计图。",
+          "author": "Destiny scripts, Nova Designs"
+        }
+      ],
+      "aboutTitle": "关于我们",
+      "aboutText": "Nova Designs是一家顶尖的设计和开发工作室，致力于为客户提供高质量的解决方案。我们的专家团队专注于网页设计、Discord机器人和图形设计。",
+      "contactTitle": "在Discord上联系我们",
+      "contactText": "如果您有任何问题或需要支持，请随时在Discord上与我们联系。点击下方按钮加入我们的服务器。",
+      "discordBtn": "加入我们的Discord",
+      "popupTitle": "服务条款和隐私政策",
+      "popupText": "请阅读我们的",
+      "termsLink": "服务条款",
+      "andText": "和",
+      "privacyLink": "隐私政策",
+      "agreeBtn": "我同意"
+    },
+    "forumPosts": [
+      {
+        "title": "我们的全球扩展计划",
+        "content": "我们很高兴地宣布我们的全球扩展计划！我们已经在实施英语、德语、法语、荷兰语、俄语和西班牙语的语言支持。这项计划旨在增强我们全球社区的可访问性和包容性。此外，我们自豪地推出重新设计的网站，提供更直观和吸引人的用户体验。",
+        "username": "Society",
+        "role": "首席执行官",
+        "date": "2024年6月28日 10:00",
+        "isNew": true
+      },
+      {
+        "title": "出售应急导航器",
+        "content": "我们很高兴地宣布，应急导航器已成功出售给新主人。作为一个开发工作室，我们将继续支持该项目，与新主人密切合作以确保其成功。敬请关注更多更新！",
+        "username": "Society",
+        "role": "首席执行官",
+        "date": "2024年6月23日 14:12",
+        "isNew": true
+      },
+      {
+        "title": "欢迎来到论坛",
+        "content": "欢迎来到我们的社区论坛！这是我们分享激动人心的更新、宣布新版本和讨论重要发展的中心。作为唯一的发布者，我会让您了解所有最新的新闻、活动和参与机会。",
+        "username": "Society",
+        "role": "首席执行官",
+        "date": "2024年6月23日 14:12",
+        "isNew": false
+      }
+    ],
+  
+    "services": [
+      { "title": "网页设计", "description": "我们根据您的需求创建令人惊叹且响应迅速的网站。" },
+      { "title": "Discord机器人", "description": "我们的团队开发用户友好的Discord机器人，以简化服务器管理和增强社区参与。" },
+      { "title": "ER:LC涂装", "description": "我们为应急响应：自由县车辆提供定制涂装，结合创新设计和现代标准。" },
+      { "title": "图形设计", "description": "我们的创意设计师为您的品牌提供视觉吸引力的图形设计。" }
+    ],
+    "products": [
+      {
+        "categoryName": "网站",
+        "products": [
+          { "title": "应急导航器", "image": "images/Emergency_Navigator.png", "description": "应急导航器是由Nova Designs设计的网站..." },
+          { "title": "Nova Designs", "image": "images/nova_designs.png", "description": "欢迎来到Nova Designs网站，在这里我们提供关于我们服务的全面信息..." }
+        ]
+      },
+      {
+        "categoryName": "Discord机器人",
+        "products": [
+          { "title": "Nova Designs Bot", "image": "images/nova_designs.png", "description": "Nova Designs的Discord机器人旨在帮助管理Nova Designs的官方Discord服务器。" },
+          { "title": "Agua", "image": "images/agua.png", "description": "Agua机器人旨在通过有趣的命令来管理和帮助服务器..." }
+        ]
+      },
+      {
+        "categoryName": "图形设计",
+        "products": [
+          { "title": "即将推出", "description": "我们的图形设计目前尚未推出，请稍后查看。" }
+        ]
+      }
+    ],
+  
+    "credits": {
+      "teamHeading": "我们的团队",
+      "teamMembers": [
+        {
+          "name": "Society",
+          "role": "首席执行官",
+          "description": "负责监督公司的战略方向和业务运营。"
+        },
+        {
+          "name": "ryderisshort",
+          "role": "副执行官",
+          "description": "支持首席执行官管理日常业务活动和项目管理。"
+        },
+        {
+          "name": "duckytop",
+          "role": "公共关系负责人",
+          "description": "管理公司的公众形象和沟通策略。"
+        },
+        {
+          "name": "ryderisshort",
+          "role": "开发总监",
+          "description": "监督开发团队并确保软件项目的质量。"
+        },
+        {
+          "name": "duckdodgers25.5",
+          "role": "内容开发总监",
+          "description": "管理内容创作并确保所有发布内容的一致性和质量。"
+        },
+        {
+          "name": "stealth102",
+          "role": "翻译专家（法语）",
+          "description": "将公司内容翻译成法语，并确保准确性和文化相关性。"
+        },
+        {
+          "name": ".xuragentofthenine",
+          "role": "翻译专家（荷兰语）",
+          "description": "将公司内容翻译成荷兰语，并确保准确性和文化相关性。"
+        },
+        {
+          "name": "Anders_J",
+          "role": "一般内容开发人员",
+          "description": "为公司创建和维护各种内容。"
+        },
+        {
+          "name": "duckdodgers25.5",
+          "role": "一般内容开发人员，网站开发人员",
+          "description": "开发和维护公司网站以及其他一般内容。"
+        },
+        {
+          "name": "ryderisshort",
+          "role": "一般内容开发人员，Roblox Studio开发人员",
+          "description": "开发Roblox Studio内容并参与一般内容创作。"
+        },
+        {
+          "name": "pack29man",
+          "role": "一般内容开发人员",
+          "description": "参与各种内容开发项目。"
+        },
+        {
+          "name": "duckdodgers25.5",
+          "role": "应急导航器首席执行官",
+          "description": "在项目开发的关键阶段提供了宝贵的见解和支持。"
+        }
+      ]
+    }
+  }
+  
