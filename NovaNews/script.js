@@ -15,6 +15,17 @@ const articles = [
       <p>Tragically, the incident resulted in two confirmed deaths: the shooter and a rally attendee. Several others sustained injuries from the gunfire. Video footage captured the tense moments, including the aftermath where Trump, undeterred, pumped his fist in the air as the crowd chanted "USA."</p>
       <p>In a startling development, authorities discovered explosive devices in the shooter's vehicle during a subsequent search. The Secret Service promptly escorted Trump off the stage to a waiting vehicle, ensuring his safety. The motives behind Crooks' actions remain under investigation as authorities piece together the events leading up to the shooting.</p>
     `
+  },
+
+    {
+    "title": "Body of Missing British Teen Jay Slater Found in Tenerife",
+    "time": "July 16, 2024 13:42 PM",
+    "content": `
+      <p><strong>Tenerife, Spain</strong> – The body of British teenager Jay Slater has been found by rescue workers in Tenerife, a court spokesperson confirmed. The 19-year-old, who had been missing for 29 days, was identified through fingerprints examined during a post-mortem. The injuries were consistent with a fall from a cliff, according to the court spokesperson.</p>
+        <p>Slater, who had flown to Tenerife with friends to attend a music festival, was last heard from on the morning of June 17th. He called his friend, Lucy Law, at 8:30 a.m. to report missing his bus, having a phone battery at 1%, and cutting his leg on a cactus. He was attempting to walk back to his holiday accommodation from the northern part of the island, an 11-hour journey.</p>
+        <p>Spanish police stated that the Civil Guard's mountain rescue group located Slater's body in the Masca area. LBT Global, a charity supporting the Slater family, reported that the body was found with his possessions and clothes near the last known location of his mobile phone. Search teams are continuing to examine the remote area to ensure no evidence is missed.</p>
+        <p>Our thoughts are with Jay Slater’s family and friends during this difficult time.</p>
+    `
   }
 ];
 
