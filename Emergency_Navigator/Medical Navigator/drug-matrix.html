@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drug Matrix - Medical Navigator</title>
+    <link rel="stylesheet" href="styles/medical-terms.css" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WD3YV71065"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-WD3YV71065");
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <h1 id="title">Medical Navigator</h1>
+        <nav>
+          <a href="./medical-help.html" class="nav-link">Medical Help</a>
+          <a href="./drug-matrix.html" class="nav-link">Drug Matrix</a>
+          <a href="./assessment.html" class="nav-link">Assessment</a>
+          <a href="./medical-terms.html" class="nav-link">Medical Terms</a>
+          <a href="../index.html" class="nav-link">Back</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="sidebar">
+        <h2>Drug Matrix</h2>
+        <ul id="dictionary-list">
+          <h3><strong>Pain Management</strong></h3></br>
+          <li>
+            <button onclick="toggleDefinition('morphine')" class="button">
+              Morphine
+            </button>
+          </li>
+          <li>
+            <button onclick="toggleDefinition('paracetamol')" class="button">
+                Paracetamol
+            </button>
+          </li>
+          <li>
+            <button onclick="toggleDefinition('ketamine')" class="button">
+                Ketamine
+            </button>
+          </li>
+
+          <li>
+            <button onclick="toggleDefinition('ibuprofen')" class="button">
+                Ibuprofen
+            </button>
+          </li></br>
+
+          <h3><strong>Cardiac Medications</strong></h3></br>
+
+          <li>
+            <button onclick="toggleDefinition('atropine')" class="button">
+                Atropine
+            </button>
+          </li></br>
+          <li>
+            <button onclick="toggleDefinition('amiodarone')" class="button">
+                Amiodarone
+            </button>
+          </li></br>
+          <li>
+            <button onclick="toggleDefinition('adrenaline')" class="button">
+                Adrenaline
+            </button>
+          </li></br>
+          <li>
+            <button onclick="toggleDefinition('TXA')" class="button">
+                TXA (Tranexamic Acid)
+            </button>
+          </li></br>
+
+          <h3><strong>Respiratory Medications</strong></h3></br>
+
+          <li>
+            <button onclick="toggleDefinition('OxygenNasal')" class="button">
+                Oxygen (Nasal Cannula)
+            </button>
+          </li></br>
+
+          <li>
+            <button onclick="toggleDefinition('OxygenVenturi')" class="button">
+                Oxygen (Venturi Mask)
+            </button>
+          </li></br>
+
+          <li>
+            <button onclick="toggleDefinition('OxygenRebreather')" class="button">
+                Oxygen (Non-Rebreather Mask)
+            </button>
+          </li></br>
+
+          <li>
+            <button onclick="toggleDefinition('ipratropium')" class="button">
+              Ipratropium Bromide
+            </button>
+          </li></br>
+
+          <h3><strong>Anaphylaxis Management</strong></h3></br>
+
+          <li>
+            <button onclick="toggleDefinition('epinephrine')" class="button">
+              Adrenaline
+            </button>
+          </li></br>
+
+          <li>
+            <button onclick="toggleDefinition('benadryl')" class="button">
+              Benadryl 
+            </button>
+          </li></br>
+
+          <h3><strong>Sedatives / Seizure Control</strong></h3></br>
+
+          <li>
+            <button onclick="toggleDefinition('diazepam')" class="button">
+              Diazepam 
+            </button>
+          </li></br>
+
+          <li>
+            <button onclick="toggleDefinition('lorazepam')" class="button">
+              Lorazepam 
+            </button>
+          </li></br>
+
+          <h3><strong>Anti-inflammatory</strong></h3></br>
+
+          <li>
+            <button onclick="toggleDefinition('ibuprofen')" class="button">
+              Ibuprofen 
+            </button>
+          </li></br>
+
+          <h3><strong>Blood Pressure Management</strong></h3></br>
+
+          <li>
+            <button onclick="toggleDefinition('adrenaline')" class="button">
+              Adrenaline  
+            </button>
+          </li></br>
+
+          <li>
+            <button onclick="toggleDefinition('norepinephrine')" class="button">
+              Norepinephrine  
+            </button>
+          </li></br>
+
+          <li>
+            <button onclick="toggleDefinition('dopamine')" class="button">
+              Dopamine  
+            </button>
+          </li></br>
+          
+          <h3><strong>Antiplatelet Agents</strong></h3></br>
+
+          <li>
+            <button onclick="toggleDefinition('aspirin')" class="button">
+              Aspirin  
+            </button>
+          </li></br>
+
+          <h3><strong>Blood Products</strong></h3></br>
+
+          <li>
+            <button onclick="toggleDefinition('PRBC')" class="button">
+              Packed Red Blood Cells (PRBC)  
+            </button>
+          </li></br>
+
+          <li>
+            <button onclick="toggleDefinition('FFP')" class="button">
+              Fresh Frozen Plasma (FFP)  
+            </button>
+          </li></br>
+
+          <li>
+            <button onclick="toggleDefinition('platelets')" class="button">
+              Platelets  
+            </button>
+          </li></br>
+
+          <h3><strong>Intravenous Fluids</strong></h3></br>
+
+          <li>
+            <button onclick="toggleDefinition('intravenousfluids')" class="button">
+              Intravenous Fluids  
+            </button>
+          </li></br>
+        </ul>
+      </div>
+      <div class="content">
+        <div id="morphine" class="dictionary-term">
+          <h2>Morphine</h2></br>
+          <p>
+            <strong>Dosage:</strong> 5-10mg Intravenous (IV), Intraosseous (IO)
+            or intramuscular (IM)
+          </p></br>
+          <p>
+            <strong>Description:</strong> Treats moderate to severe pain by
+            binding to opioid receptors.
+          </p></br>
+          <p>
+            <strong>Hazzard:</strong> Respiratory depression, hypotension,
+            sedation
+          </p>
+        </div>
+
+        <div id="paracetamol" class="dictionary-term">
+            <h2>Paracetamol</h2></br>
+            <p>
+              <strong>Dosage:</strong> 500-1000mg Oral (By mouth) or Intravenous (IV)
+            </p></br>
+            <p>
+              <strong>Description:</strong> Mild to moderate pain relief.
+            </p></br>
+            <p>
+              <strong>Hazzard:</strong> Hepatotoxicity (with overdose)
+            </p>
+          </div>
+
+          <div id="ketamine" class="dictionary-term">
+            <h2>Ketamine</h2></br>
+            <p>
+              <strong>Dosage:</strong> 0.1-0.5mg/kg Intravenous (IV) or intramuscular (IM)
+            </p></br>
+            <p>
+              <strong>Description:</strong> Dissociative anesthetic for pain relief and sedation.
+            </p></br>
+            <p>
+              <strong>Hazzard:</strong> Hallucinations, respiratory depression, hypertension
+            </p>
+          </div>
+
+          <div id="ibuprofen" class="dictionary-term">
+            <h2>Ibuprofen</h2></br>
+            <p>
+              <strong>Dosage:</strong> 400-800mg Oral (By mouth)
+            </p></br>
+            <p>
+              <strong>Description:</strong> Nonsteroidal anti-inflammatory drug (NSAID) for pain relief and fever reduction.
+            </p></br>
+            <p>
+              <strong>Hazzard:</strong> Gastrointestinal bleeding, renal impairment, cardiovascular events
+            </p>
+          </div>
+
+          <div id="atropine" class="dictionary-term">
+            <h2>Atropine</h2></br>
+            <p>
+              <strong>Dosage:</strong></br> 0.5mg Intravenous (IV) <strong>(Bradycardia)</strong> </br></br> 1mg Intravenous (IV) <strong>(Cardiac Arrest)</strong>
+            </p></br>
+            <p>
+              <strong>Description:</strong> Raises heart rate by blocking vagal tone.
+            </p></br>
+            <p>
+              <strong>Hazzard:</strong> Tachycardia, dry mouth, blurred vision, urinary retention
+            </p>
+          </div>
+
+          <div id="amiodarone" class="dictionary-term">
+            <h2>Amiodarone</h2></br>
+            <p>
+              <strong>Dosage:</strong> 150mg Intravenous (IV)
+            </p></br>
+            <p>
+              <strong>Description:</strong> Treats ventricular arrhythmias, particularly ventricular fibrillation.
+            </p></br>
+            <p>
+              <strong>Hazzard:</strong> Bradycardia, hypotension, QT prolongation, pulmonary toxicity
+            </p>
+          </div>
+
+          <div id="adrenaline" class="dictionary-term">
+            <h2>Adrenaline</h2></br>
+            <p>
+              <strong>Dosage:</strong></br> 0.5-1.0mg Intravenous (IV) or Intraosseous (IO) <strong>(Cardiac Arrest, Anaphylaxis)</strong> </br></br> 0.3mg intramuscular (IM) <strong>(Severe Asthma)</strong>
+            </p></br>
+            <p>
+              <strong>Description:</strong> Raises heart rate, blood pressure, and dilates bronchioles.
+            </p></br>
+            <p>
+              <strong>Hazzard:</strong> Tachycardia, hypertension, arrhythmias, anxiety
+            </p>
+          </div>
+
+          <div id="TXA" class="dictionary-term">
+            <h2>TXA (Tranexamic Acid)</h2></br>
+            <p>
+              <strong>Dosage:</strong> 1g Intravenous (IV)
+            </p></br>
+            <p>
+              <strong>Description:</strong> Reduces blood loss in hemorrhage and major bleeding.
+            </p></br>
+            <p>
+              <strong>Hazzard:</strong> Thromboembolic events, hypersensitivity reactions
+            </p>
+          </div>
+
+          <div id="OxygenNasal" class="dictionary-term">
+            <h2>Oxygen (Nasal Cannula)</h2></br>
+            <p>
+              <strong>Dosage:</strong> O2 Flow Rate as needed
+            </p></br>
+            <p>
+              <strong>Description:</strong> Provides supplemental oxygen through nasal prongs.
+            </p></br>
+            <p>
+              <strong>Hazzard:</strong> Oxygen toxicity, drying of mucous membranes.
+            </p>
+          </div>
+
+          <div id="OxygenVenturi" class="dictionary-term">
+            <h2>Oxygen (Venturi Mask)</h2></br>
+            <p>
+              <strong>Dosage:</strong> O2 Flow Rate as needed
+            </p></br>
+            <p>
+              <strong>Description:</strong> Delivers precise oxygen concentrations.
+            </p></br>
+            <p>
+              <strong>Hazzard:</strong> Same as nasal cannula, risk of CO2 retention.
+            </p>
+          </div>
+
+          <div id="OxygenRebreather" class="dictionary-term">
+            <h2>Oxygen (Non-Rebreather Mask)</h2></br>
+            <p>
+              <strong>Dosage:</strong> O2 Flow Rate as needed
+            </p></br>
+            <p>
+              <strong>Description:</strong> Provides highest oxygen concentration for severe hypoxia.
+            </p></br>
+            <p>
+              <strong>Hazzard:</strong> Risk of suffocation if valve malfunctions
+            </p>
+          </div>
+
+          <div id="ipratropium" class="dictionary-term">
+            <h2>Ipratropium Bromide</h2></br>
+            <p>
+              <strong>Dosage:</strong> 2.5ml Nebulized
+            </p></br>
+            <p>
+              <strong>Description:</strong> Treats bronchospasm associated with asthma, COPD.
+            </p></br>
+            <p>
+              <strong>Hazzard:</strong> Dry mouth, blurred vision, urinary retention
+            </p>
+          </div></br>
+
+          <div id="epinephrine" class="dictionary-term">
+            <h2>Adrenaline / Epinephrine</h2></br>
+            <p>
+              <strong>Dosage:</strong> 0.5-1.0mg Intravenous (IV) or Intraosseous (IO) <strong>(Cardiac Arrest, Anaphylaxis)</strong> 
+            </p></br>
+            <p>
+              <strong>Description:</strong> Raises heart rate, blood pressure, and dilates bronchioles.
+            </p></br>
+            <p>
+              <strong>Hazzard:</strong> Tachycardia, hypertension, arrhythmias, anxiety
+            </p>
+          </div>
+
+          <div id="benadryl" class="dictionary-term">
+            <h2>Benadryl</h2></br>
+            <p>
+              <strong>Dosage:</strong> 25-50mg Intravenous (IV) or intramuscular (IM)
+            </p></br>
+            <p>
+              <strong>Description:</strong> Antihistamine for allergic reactions.
+            </p></br>
+            <p>
+              <strong>Hazzard:</strong> Sedation, anticholinergic effects, dizziness
+            </p>
+          </div>
+
+          <div id="diazepam" class="dictionary-term">
+            <h2>Diazepam</h2></br>
+            <p>
+              <strong>Dosage:</strong> 2-5mg Intravenous (IV) or intramuscular (IM)
+            </p></br>
+            <p>
+              <strong>Description:</strong> Benzodiazepine for sedation and seizure control.
+            </p></br>
+            <p>
+              <strong>Hazzard:</strong> Respiratory depression, hypotension, sedation
+            </p>
+          </div>
+
+          <div id="lorazepam" class="dictionary-term">
+            <h2>Lorazepam</h2></br>
+            <p>
+              <strong>Dosage:</strong> 2mg Intravenous (IV) or intramuscular (IM)
+            </p></br>
+            <p>
+              <strong>Description:</strong> Benzodiazepine for sedation and seizure control.
+            </p></br>
+            <p>
+              <strong>Hazzard:</strong> Respiratory depression, hypotension, sedation
+            </p>
+          </div>
+
+          <div id="norepinephrine" class="dictionary-term">
+            <h2>Norepinephrine</h2></br>
+            <p>
+              <strong>Dosage:</strong> 0.01-3.0mcg/kg/min Intravenous (IV)
+            </p></br>
+            <p>
+              <strong>Description:</strong> Raises blood pressure in shock states.
+            </p></br>
+            <p>
+              <strong>Hazzard:</strong> Hypertension, tachycardia, arrhythmias
+            </p>
+          </div>
+
+          <div id="dopamine" class="dictionary-term">
+            <h2>Dopamine</h2></br>
+            <p>
+              <strong>Dosage:</strong> 0.5-10.0mcg/kg/min Intravenous (IV)
+            </p></br>
+            <p>
+              <strong>Description:</strong> Raises blood pressure and cardiac output in shock states.
+            </p></br>
+            <p>
+              <strong>Hazzard:</strong> Tachycardia, arrhythmias, extravasation
+            </p>
+          </div>
+
+          <div id="aspirin" class="dictionary-term">
+            <h2>Aspirin</h2></br>
+            <p>
+              <strong>Dosage:</strong> 162-325mg Oral (By mouth)
+            </p></br>
+            <p>
+              <strong>Description:</strong> Inhibits platelet aggregation to prevent clot formation.
+            </p></br>
+            <p>
+              <strong>Hazzard:</strong> Gastrointestinal bleeding, hemorrhagic stroke
+            </p>
+          </div>
+
+          <div id="PRBC" class="dictionary-term">
+            <h2>Packed Red Blood Cells (PRBC)</h2></br>
+            <p>
+              <strong>Dosage:</strong> 1-2 units Intravenous (IV) (as needed)
+            </p></br>
+            <p>
+              <strong>Description:</strong> Provides oxygen-carrying capacity to the blood.
+            </p></br>
+            <p>
+              <strong>Hazzard:</strong> Transfusion reactions, fluid overload, infection risk
+            </p>
+          </div>
+
+          <div id="FFP" class="dictionary-term">
+            <h2>Fresh Frozen Plasma (FFP)</h2></br>
+            <p>
+              <strong>Dosage:</strong> 10-15mL/kg Intravenous (IV) (as needed)
+            </p></br>
+            <p>
+              <strong>Description:</strong> Replaces clotting factors in patients with coagulopathy.
+            </p></br>
+            <p>
+              <strong>Hazzard:</strong> Transfusion reactions, fluid overload, infection risk
+            </p>
+          </div>
+
+          <div id="platelets" class="dictionary-term">
+            <h2>Platelets</h2></br>
+            <p>
+              <strong>Dosage:</strong> 1 unit Intravenous (IV) (as needed)
+            </p></br>
+            <p>
+              <strong>Description:</strong> Treats thrombocytopenia or platelet dysfunction.
+            </p></br>
+            <p>
+              <strong>Hazzard:</strong> Transfusion reactions, fluid overload, infection risk
+            </p>
+          </div>
+
+          <div id="intravenousfluids" class="dictionary-term">
+            <h2>Intravenous Fluids</h2></br>
+            <p>
+              <strong>Dosage:</strong> As needed Intravenous (IV)
+            </p></br>
+            <p>
+              <strong>Description:</strong> Normal Saline
+            </p></br>
+            <p>
+              <strong>Hazzard:</strong> Provides fluid resuscitation and electrolyte balance
+            </p>
+          </div>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2024 Medical Navigator. All rights reserved.</p>
+    </footer>
+    <script src="./javascript/medical-terms.js"></script>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drug Matrix - Medical Navigator</title>
+    <link rel="stylesheet" href="styles/medical-terms.css" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WD3YV71065"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-WD3YV71065");
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <h1 id="title">Medical Navigator</h1>
+        <nav>
+          <a href="./medical-help.html" class="nav-link">Medical Help</a>
+          <a href="./drug-matrix.html" class="nav-link">Drug Matrix</a>
+          <a href="./assessment.html" class="nav-link">Assessment</a>
+          <a href="./medical-terms.html" class="nav-link">Medical Terms</a>
+          <a href="../index.html" class="nav-link">Back</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="sidebar">
+        <h2>Asessment</h2>
+        <ul id="dictionary-list">
+          <li>
+            <button onclick="toggleDefinition('SSA')" class="button">
+                Scene Safety Assessment
+            </button>
+          </li>
+          <li>
+            <button onclick="toggleDefinition('IPA')" class="button">
+                Initial Patient Assessment
+            </button>
+          </li>
+          <li>
+            <button onclick="toggleDefinition('PS')" class="button">
+                Primary Survey
+            </button>
+          </li>
+          <li>
+            <button onclick="toggleDefinition('SS')" class="button">
+                Secondary Survey
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <div id="SSA" class="dictionary-term">
+          <h2>Scene Safety Assessment</h2></br>
+          Prioritise your safety and that of your team. Assess the scene for any potential hazards such as traffic, fire, or violence.</br></br>
+
+           Establish safe access to the patient while maintaining awareness of surroundings.
+        </div>
+        <div id="IPA" class="dictionary-term">
+            <h2>Initial Patient Assessment:</h2></br>
+            Conduct a rapid initial assessment to determine the patient's level of consciousness, airway patency, breathing, and circulation.</br></br>
+
+            Address any life-threatening conditions immediately.
+          </div>
+
+          <div id="PS" class="dictionary-term">
+            <h2>Primary Survey</h2></br>
+            <p>
+            <strong>Airway:</strong> Ensure the patient's airway is open and clear. Use appropriate maneuvers or equipment if needed.
+          </p></br>
+
+          <p>
+            <strong>Breathing:</strong> Assess breathing rate, depth, and quality. Administer oxygen if necessary.
+          </p></br>
+
+          <p>
+            <strong>Circulation:</strong> Check for signs of circulation such as pulse and skin color. Control any life-threatening bleeding.
+          </p></br>
+          </div>
+
+          <div id="SS" class="dictionary-term">
+            <h2>Secondary Survey</h2></br>
+            <p>
+            <strong>Head-to-Toe Assessment:</strong> Perform a systematic assessment of the patient's head, neck, chest, abdomen, pelvis, extremities, and back.
+            Identify any additional injuries or medical conditions.            
+          </p></br>
+
+          <p>
+            <strong>Vital Signs:</strong> Obtain baseline vital signs including heart rate, blood pressure, respiratory rate, and oxygen saturation.
+            Monitor vital signs throughout the assessment and treatment process.            
+          </p></br>
+          </div>
+      </div>
+  </div>
+    </div>
+    <footer>
+      <p>&copy; 2024 Medical Navigator. All rights reserved.</p>
+    </footer>
+    <script src="./javascript/medical-terms.js"></script>
+  </body>
+</html>
