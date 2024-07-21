@@ -259,3 +259,35 @@ footer {
 .ad-container .ad-banner:first-child {
   display: block;
 }
+
+.notice-banner {
+  background-color: #4682b4;
+    color: white; 
+  padding: 15px 25px; 
+  text-align: center; 
+  position: relative; 
+  border-radius: 10px; 
+  border: 3px solid #315a7b;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1); 
+  margin: 20px; 
+  font-size: 18px; 
+}
+
+.notice-text {
+  font-size: 18px; 
+  margin: 0; 
+}
+
+.notice-banner .close-btn {
+  position: absolute;
+  right: 15px; 
+  cursor: pointer; 
+  text-align: center; 
+  font-size: 40px; 
+  color: white; 
+  transition: color 0.3s; 
+}
+
+.notice-banner .close-btn:hover {
+  color: #315a7b;
+}
