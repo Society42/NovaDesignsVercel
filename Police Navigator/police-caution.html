@@ -12,6 +12,11 @@
         gtag('js', new Date());
         gtag('config', 'G-WD3YV71065');
     </script>
+    <style>
+        .dictionary-term {
+            display: none;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -64,6 +69,18 @@
     <footer>
         <p>&copy; 2024 Police Navigator. All rights reserved.</p>
     </footer>
-    <script src="./javascript/police-caution.js"></script>
+    <script>
+        function showCaution(id) {
+            var terms = document.querySelectorAll('.dictionary-term');
+            terms.forEach(function(term) {
+                term.style.display = 'none';
+            });
+
+            var selectedTerm = document.getElementById(id);
+            if (selectedTerm) {
+                selectedTerm.style.display = 'block';
+            }
+        }
+    </script>
 </body>
 </html>
