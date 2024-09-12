@@ -32,27 +32,6 @@
          
   </div>
 </header>
-<div id="tributeModal" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <h2>Remembering 9/11</h2>
-    <p>
-      On the morning of September 11, 2001, 19 terrorists from the extremist group al-Qaeda hijacked four commercial airplanes. Two of these planes were flown into the Twin Towers of the World Trade Center in New York City, causing the towers to collapse in less than two hours.
-    </p>
-    <p>
-      A third plane was flown into the Pentagon, the headquarters of the U.S. Department of Defense, located just outside Washington, D.C. The fourth plane, United Airlines Flight 93, was headed for another target in Washington, but the passengers heroically fought back, and the plane crashed into a field in Pennsylvania.
-    </p>
-    <p>
-      In total, 2,996 people were killed in the attacks, including more than 343 Emergency Responders who rushed to the scene to help. This day marked one of the deadliest attacks on U.S. soil.
-    </p>
-    <p>
-      Today, we remember the lives lost, the bravery of first responders, and the resilience of a nation that came together in the face of unspeakable tragedy. We honor their memory and continue to support those affected by the events of 9/11.
-    </p>
-    <p>
-      "Time is passing. Yet, for the United States of America, there will be no forgetting September the 11th. We will remember every rescuer who died in honor. We will remember every family that lives in grief. We will remember the fire and ash, the last phone calls, the funerals of the children." - George W. Bush
-    </p>
-  </div>
-</div>
 
 <!-- Button to Trigger Modal -->
 <button id="openModal">Learn More About 9/11</button>
@@ -369,30 +348,6 @@ function showMoreFaqs() {
 }
 
 </script>
-<script>
-  var modal = document.getElementById("tributeModal");
-  var btn = document.getElementById("openModal");
-  var span = document.getElementsByClassName("close")[0];
-  
-  btn.onclick = function() {
-    modal.style.display = "block";
-  }
-  
-  span.onclick = function() {
-    modal.style.display = "none";
-  }
-  
-  window.onclick = function(event) {
-    if (event.target == modal) {
-      modal.style.display = "none";
-    }
-  }
-  
-  window.onload = function() {
-    modal.style.display = "block";
-  }
-  </script>
-  
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/3.0.1/js.cookie.min.js"></script>
 </body>
 </html>
