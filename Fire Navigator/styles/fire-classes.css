@@ -54,18 +54,21 @@ body {
     height: 150px;
     background-color: #ffcc00;
     border-radius: 50px;
-    animation: wave 2s infinite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .arm {
     position: absolute;
-    top: 20px;
+    top: 30px;
     right: -20px;
     width: 20px;
     height: 60px;
     background-color: #ffcc00;
     border-radius: 20px;
     transform-origin: top center;
+    animation: wave 1.5s infinite;
 }
 
 .body {
@@ -101,8 +104,14 @@ body {
     0% {
         transform: rotate(0deg);
     }
+    25% {
+        transform: rotate(-10deg);
+    }
     50% {
-        transform: rotate(15deg);
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(10deg);
     }
     100% {
         transform: rotate(0deg);
