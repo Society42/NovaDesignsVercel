@@ -1,50 +1,62 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f7f7f7;
-    color: #333;
-    text-align: center;
-}
-
-.container {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f7f7f7;
 }
 
-.content {
-    background-color: #fff;
+.container {
+    text-align: center;
+}
+
+.message {
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.content h1 {
-    font-size: 2.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-    color: #333;
 }
 
-.content p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-    color: #555;
+.message h1 {
+    color: #d9534f;
+    margin-bottom: 10px;
 }
 
-.content img {
+.message p {
+    font-size: 18px;
+    color: #333333;
+}
+
+.rhyme {
+    font-size: 16px;
+    color: #666666;
+}
+
+.animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.waving-figure {
+    width: 150px;
+    height: 150px;
+    animation: wave 2s infinite;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(15deg);
+    }
+}
+
+img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 20px;
-}
-
-.content a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.content a:hover {
-    text-decoration: underline;
 }
