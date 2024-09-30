@@ -1,0 +1,149 @@
+{
+    "homepage": {
+      "heroTitle": "Welkom bij Nova Designs",
+      "heroSubtitle": "Wij ontwerpen en ontwikkelen innovatieve oplossingen.",
+      "learnMoreBtn": "Meer weten",
+      "trustpilotBtn": "Laat een beoordeling achter op Trustpilot",
+      "reviewsTitle": "Klantbeoordelingen",
+      "reviews": [
+        {
+          "text": "Beste ding ooit, man. Alles wat je hoeft te doen is iets opzoeken en tada, het is er. Zeer goed voor RP.",
+          "author": "Hogzz, Nova Designs"
+        },
+        {
+          "text": "Nova Designs is geweldig. Ze hebben me geholpen mijn website te maken en alles voor mij te beheren. Het enige wat ik hoefde te doen was ze een beschrijving geven van wat ik wilde dat de website zou zijn, samen met wat ontwerpidëen en de naam, en bam, binnen een dag lieten ze me afbeeldingen zien.",
+          "author": "Destiny Scripts, Nova Designs"
+        }
+      ],
+      "aboutTitle": "Over ons",
+      "aboutText": "Nova Designs is een toonaangevend ontwerp- en ontwikkelingsstudio die zich richt op het leveren van hoogwaardige oplossingen aan onze klanten. Ons team van experts is gespecialiseerd in webdesign, Discord-bots en grafisch ontwerp.",
+      "contactTitle": "Neem contact met ons op via Discord",
+      "contactText": "Als u vragen heeft of ondersteuning nodig heeft, kunt u gerust contact met ons opnemen via Discord. Klik op de knop hieronder om onze server te betreden.",
+      "discordBtn": "Word lid van onze Discord",
+      "popupTitle": "Gebruiksvoorwaarden en privacybeleid",
+      "popupText": "Lees alstublieft onze",
+      "termsLink": "Gebruiksvoorwaarden",
+      "andText": "en",
+      "privacyLink": "Privacybeleid",
+      "agreeBtn": "Ik ga akkoord"
+    },
+    "services": [
+      { "title": "Webdesign", "description": "Wij creëren prachtige en responsieve websites op maat." },
+      { "title": "Discord Bots", "description": "Ons team ontwikkelt gebruiksvriendelijke Discord bots om serverbeheer te stroomlijnen en de betrokkenheid in de gemeenschap te vergroten." },
+      { "title": "ER:LC Liveries", "description": "Wij bieden op maat gemaakte liveries voor noodhulpvoertuigen in Liberty County, waarbij innovatief ontwerp wordt gecombineerd met strakke en moderne standaarden." },
+      { "title": "Grafisch Ontwerp", "description": "Onze creatieve ontwerpers leveren visueel aantrekkelijke graphics voor uw merk." }
+    ],
+    "products": [
+      {
+        "categoryName": "Websites",
+        "products": [
+          { "title": "Emergency Navigator", "image": "images/Emergency_Navigator.png", "description": "Emergency Navigator is een website ontworpen door Nova Designs..." },
+          { "title": "Nova Designs", "image": "images/nova_designs.png", "description": "Welkom op de Nova Designs website, waar wij uitgebreide informatie bieden over onze diensten..." }
+        ]
+      },
+      {
+        "categoryName": "Discord Bots",
+        "products": [
+          { "title": "Nova Designs Bot", "image": "images/nova_designs.png", "description": "De Nova Designs Discord bot is gemaakt om te helpen bij het beheren van de officiële Nova Designs Discord server." },
+          { "title": "Agua", "image": "images/agua.png", "description": "De Agua bot is ontwikkeld voor het modereren, beheren en ondersteunen van servers met leuke commando's..." }
+        ]
+      },
+      {
+        "categoryName": "Grafisch Ontwerp",
+        "products": [
+          { "title": "Binnenkort beschikbaar", "description": "Onze grafische ontwerpen zijn momenteel nog niet beschikbaar. Kom later terug." }
+        ]
+      }
+    ],
+      "forumPosts": [
+        {
+          "title": "Ons universele uitbreidingsplan",
+          "content": "We zijn verheugd om ons universele uitbreidingsplan aan te kondigen! We zijn al begonnen met het toevoegen van ondersteuning voor de talen Engels, Duits, Frans, Nederlands, Russisch en Spaans. Deze initiatief heeft tot doel de toegankelijkheid en inclusiviteit voor onze wereldwijde gemeenschap te verbeteren. Daarnaast presenteren we trots ons vernieuwde websiteontwerp, dat een intuïtievere en aantrekkelijkere gebruikservaring biedt.",
+          "username": "Society",
+          "role": "Chief Executive Officer",
+          "date": "28 juni 2024 om 10:00 uur",
+          "isNew": true
+        },        
+        {
+          "title": "Emergency Navigator Verkocht",
+          "content": "We zijn verheugd te kunnen aankondigen dat Emergency Navigator succesvol is verkocht aan een nieuwe eigenaar. Als ontwikkelingsstudio zullen we het project blijven ondersteunen en nauw samenwerken met de nieuwe eigenaar om het succes ervan te waarborgen. Blijf op de hoogte voor meer updates!",
+          "username": "Society",
+          "role": "Chief Executive Officer",
+          "date": "23 juni 2024 om 14:12 uur",
+          "isNew": true
+        },
+        {
+          "title": "Welkom op de Forums",
+          "content": "Welkom op ons communityforum! Dit is de hub waar we spannende updates delen, nieuwe releases aankondigen en belangrijke ontwikkelingen bespreken. Als enige poster zal ik u op de hoogte houden van al het laatste nieuws, evenementen en kansen om deel te nemen.",
+          "username": "Society",
+          "role": "Chief Executive Officer",
+          "date": "23 juni 2024 om 14:12 uur",
+          "isNew": false
+        }
+      ],
+      "credits": {
+        "teamHeading": "Ons Team",
+        "teamMembers": [
+          {
+            "name": "Society",
+            "role": "Chief Executive Officer",
+            "description": "Verantwoordelijk voor de strategische richting en bedrijfsactiviteiten van het bedrijf."
+          },
+          {
+            "name": "ryderisshort",
+            "role": "Vice Executive Officer",
+            "description": "Ondersteunt de CEO bij het beheer van de dagelijkse zakelijke activiteiten en projectmanagement."
+          },
+          {
+            "name": "duckytop",
+            "role": "Hoofd van Public Relations",
+            "description": "Beheert het publieke imago van het bedrijf en de communicatiestrategie."
+          },
+          {
+            "name": "ryderisshort",
+            "role": "Directeur van Ontwikkeling",
+            "description": "Houdt toezicht op het ontwikkelingsteam en zorgt voor de kwaliteit van softwareprojecten."
+          },
+          {
+            "name": "duckdodgers25.5",
+            "role": "Directeur van Inhoudsontwikkeling",
+            "description": "Beheert de inhoudsontwikkeling en zorgt voor de consistentie en kwaliteit van alle gepubliceerde inhoud."
+          },
+          {
+            "name": "stealth102",
+            "role": "Vertalingsspecialist (Frans)",
+            "description": "Vertaalt bedrijfsinhoud naar het Frans en zorgt voor nauwkeurigheid en culturele relevantie."
+          },
+          {
+            "name": ".xuragentofthenine",
+            "role": "Vertalingsspecialist (Nederlands)",
+            "description": "Vertaalt bedrijfsinhoud naar het Nederlands en zorgt voor nauwkeurigheid en culturele relevantie."
+          },
+          {
+            "name": "Anders_J",
+            "role": "Algemeen Inhoudsontwikkelaar",
+            "description": "Creëert en onderhoudt verschillende inhoud voor het bedrijf."
+          },
+          {
+            "name": "duckdodgers25.5",
+            "role": "Algemeen Inhoudsontwikkelaar, Websiteontwikkelaar",
+            "description": "Ontwikkelt en onderhoudt de bedrijfswebsite en andere algemene inhoud."
+          },
+          {
+            "name": "ryderisshort",
+            "role": "Algemeen Inhoudsontwikkelaar, Roblox Studio Ontwikkelaar",
+            "description": "Ontwikkelt inhoud voor Roblox Studio en draagt bij aan algemene inhoudsontwikkeling."
+          },
+          {
+            "name": "pack29man",
+            "role": "Algemeen Inhoudsontwikkelaar",
+            "description": "Draagt bij aan verschillende projecten van inhoudsontwikkeling."
+          },
+          {
+            "name": "duckdodgers25.5",
+            "role": "CEO van Emergency Navigator",
+            "description": "Biedt waardevolle inzichten en ondersteuning tijdens kritieke fasen van projectontwikkeling."
+          }
+        ]
+      }
+}
