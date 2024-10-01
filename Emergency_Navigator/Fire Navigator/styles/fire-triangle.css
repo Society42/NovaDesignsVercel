@@ -1,0 +1,165 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+header {
+  background-color: #fa484b;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title {
+  font-size: 24px;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #d73c3e;
+}
+
+.sidebar {
+  width: 30%;
+  padding: 20px;
+  background-color: #fa484b;
+  color: white;
+}
+
+.sidebar h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.content {
+  flex: 2;
+  padding: 20px;
+  position: relative;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 173.2px solid #ff4500;
+  margin: 0 auto;
+  position: relative;
+}
+
+.element {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.heat {
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.fuel {
+  bottom: -30px;
+  left: 25%;
+}
+
+.oxygen {
+  bottom: -30px;
+  right: 25%;
+}
+
+.info {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+h3 {
+  margin-top: 15px;
+  color: #555;
+}
+
+p,
+ul {
+  color: #666;
+}
+
+footer {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .sidebar {
+    order: 2;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .content {
+    order: 1;
+    padding: 10px;
+  }
+
+  .info {
+    max-width: 95%;
+  }
+}
+
+.fire-triangle-image {
+  display: block;
+  max-width: 25%;
+  height: auto;
+  margin: 20px auto;
+}
