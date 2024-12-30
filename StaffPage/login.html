@@ -223,29 +223,31 @@
     }
 
     window.addEventListener('beforeunload', async function (event) {
-        const isAuthenticated = sessionStorage.getItem('isAuthenticated');
-        const currentUser = sessionStorage.getItem('currentUser');
+    const isAuthenticated = sessionStorage.getItem('isAuthenticated');
+    const currentUser = sessionStorage.getItem('currentUser');
 
-        if (isAuthenticated && currentUser) {
-            await fetch(webhookUrl, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    embeds: [{
-                        title: "FBI Website Notification",
-                        description: `User **${currentUser}** has logged out.`,
-                        color: 16753920,
-                        timestamp: new Date().toISOString()
-                    }]
-                })
-            });
+    const destinationUrl = event?.currentTarget?.document?.activeElement?.href || '';
 
-            sessionStorage.removeItem('isAuthenticated');
-            sessionStorage.removeItem('currentUser');
-        }
-    });
+    if (isAuthenticated && currentUser && !destinationUrl.includes('staff-home.html')) {
+        await fetch(webhookUrl, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                embeds: [{
+                    title: "FBI Website Notification",
+                    description: `User **${currentUser}** has logged out.`,
+                    color: 16753920,
+                    timestamp: new Date().toISOString()
+                }]
+            })
+        });
+
+        sessionStorage.removeItem('isAuthenticated');
+        sessionStorage.removeItem('currentUser');
+    }
+});
 </script>
 </head>
 <header>
